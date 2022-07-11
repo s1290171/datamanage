@@ -38,8 +38,8 @@ int main(){
 
   printf("Heads: %d, Tails: %d\n",head,tail);
 
-  if(head > tail) printf("You won!\n");
-  else printf("You lost!\n");
+  if(head > tail) printf("%s won!\n",str);
+  else printf("%s lost!\n",str);
     
   return 0;
 }
