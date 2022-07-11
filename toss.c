@@ -3,9 +3,18 @@
 #include <time.h>
 
 int main(){
-  int judge;
+  int judge,i;
   int round = 1,head = 0,tail = 0;
-  int i;
+  char str[20];
+  
+  printf("Who are you?\n");
+  printf("> ");
+  
+  scanf("%s",str);
+
+  printf("Hello, %s!\n",str);
+
+  
 
   srand(time(NULL));
   
